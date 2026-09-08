@@ -1,0 +1,1 @@
+import '@/ai/flows/suggest-transaction-category.ts';
