@@ -38,3 +38,15 @@ yarn-error.log*
 next-env.d.ts
 
 .genkit/*
+
+# secrets / env (CLAUDE.md security standard — never commit real values)
+.env
+.env.*
+!.env.example
+
+# IDE / editor artifacts (CLAUDE.md "IDE artifacts" rule)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
