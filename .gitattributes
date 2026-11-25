@@ -1,0 +1,11 @@
+# Normalize line endings for all text files; let Git decide checkout EOL per-platform.
+* text=auto eol=lf
+
+# Never diff/merge generated or binary assets as text.
+package-lock.json linguist-generated=true
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.woff binary
+*.woff2 binary
